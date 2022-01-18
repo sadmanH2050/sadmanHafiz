@@ -14,3 +14,27 @@ body {
      background: url('images/top-banner.png');
      background-repeat: no-repeat;
 }
+.navBar {
+     padding: 10px 15vw 10px 15vw;
+     display: flex;
+}
+.logoSection {
+     display: flex;
+}
+.logoImage {}
+.logoImage img {
+     width: 50px;
+}
+.menuSection {}
+.menuSection ul {
+     display: inline-flex;
+}
+.menuSection ul li {
+     list-style-type: none;
+}
+.menuSection ul li a {
+     text-transform: capitalize;
+     text-decoration: none;
+     color: #F88B6A;
+     font-size: 20px;
+}
