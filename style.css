@@ -17,24 +17,40 @@ body {
 .navBar {
      padding: 10px 15vw 10px 15vw;
      display: flex;
+     position: sticky;
+     top: 0;
+     width: 100%;
 }
 .logoSection {
      display: flex;
+     width: 20%;
 }
 .logoImage {}
 .logoImage img {
      width: 50px;
 }
-.menuSection {}
+.menuSection {
+     width: 80%;
+     text-align: right;
+}
 .menuSection ul {
      display: inline-flex;
+     padding-top: 20px;
 }
 .menuSection ul li {
      list-style-type: none;
+     padding: 0px 5px 0px 15px;
 }
 .menuSection ul li a {
      text-transform: capitalize;
      text-decoration: none;
      color: #F88B6A;
      font-size: 20px;
+     padding: 5px 15px;
+     transition: all linear 0.3s;
 }
+.menuSection ul li a:hover {
+     background: #FB6454;
+     border-radius: 5px;
+     color: white;
+} 
