@@ -10,20 +10,27 @@
 body {
      font-family: 'Poppins', sans-serif;
 }
+
+/* home page ---------- */
 .homePage {
      background: url('images/top-banner.png');
      background-repeat: no-repeat;
 }
+
+/* nave bar ---------- */
 .navBar {
      padding: 10px 15vw 10px 15vw;
      display: flex;
-     position: sticky;
+     position: fixed;
      top: 0;
      width: 100%;
+     background: url("images/top-banner.png");
+     background-repeat: no-repeat;
 }
 .logoSection {
      display: flex;
      width: 20%;
+     padding-top: 10px;
 }
 .logoImage {}
 .logoImage img {
@@ -51,6 +58,82 @@ body {
 }
 .menuSection ul li a:hover {
      background: #FB6454;
-     border-radius: 5px;
+     border-radius: 8px;
      color: white;
 } 
+
+/* home ---------- */
+.home {
+     display: flex;
+     width: 100vw;
+     padding: 120px 50px 50px 50px;
+}
+.homeContent {
+     width: 50%;
+     padding: 50px;
+}
+.welcomeName {
+     font-size: 60px;
+     text-transform: capitalize;
+}
+.textColor {
+     color: orange;
+     padding-bottom: 20px;
+}
+.homeContent h3 {
+     padding: 25px 0px;
+     font-size: 22px;
+}
+.homeContent p {
+     padding-bottom: 25px;
+}
+.button {
+     text-decoration: none;
+     text-transform: uppercase;
+     font-size: 18px;
+     font-weight: 500;
+     color: white;
+     background-image: linear-gradient(to right, #FF9B76, #FF674B);
+     padding: 8px 25px;
+     border-radius: 6px;
+     transition: all linear 0.4s;
+}
+.homeImage {
+     width: 50%;
+     text-align: center;
+
+}
+.homeImage img {
+     width: 80%;
+}
+
+/* about ---------- */
+.about {
+     display: flex;
+     width: 100vw;
+     padding: 50px;
+}
+.aboutImage {
+     width: 50%;
+     text-align: center;
+
+}
+.aboutImage img {
+     width: 80%;
+}
+.aboutContent {
+     width: 50%;
+     padding: 50px;
+}
+.aboutContent h2 {
+     text-transform: capitalize;
+     font-weight: 800;
+     font-size: 45px;
+}
+.aboutContent h3 {
+     padding: 25px 0px;
+     font-size: 22px;
+}
+.aboutContent p {
+     padding-bottom: 25px;
+}
